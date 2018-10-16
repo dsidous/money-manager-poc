@@ -1,0 +1,983 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`setup renders as expected 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Setup />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": <Styled(Component)
+        style={
+          Object {
+            "flex": 1,
+            "justifyContent": "center",
+          }
+        }
+      >
+        <StyledText
+          size="large"
+          style={
+            Object {
+              "alignSelf": "flex-start",
+              "marginTop": 30,
+              "paddingHorizontal": 25,
+            }
+          }
+        >
+          How does this set up work?
+        </StyledText>
+        <StyledText
+          style={
+            Object {
+              "alignSelf": "flex-start",
+              "color": "#2E7AF6",
+              "marginBottom": 10,
+              "marginTop": 20,
+              "paddingLeft": 25,
+            }
+          }
+          weight={true}
+        >
+          Step 1
+        </StyledText>
+        <StyledText
+          style={
+            Object {
+              "paddingLeft": 25,
+              "paddingRight": 25,
+            }
+          }
+        >
+          <StyledText
+            weight={true}
+          >
+            Choose your bank 
+          </StyledText>
+          - You select your bank from the list of selected bank we work with!
+        </StyledText>
+        <StyledText
+          style={
+            Object {
+              "alignSelf": "flex-start",
+              "color": "#2E7AF6",
+              "marginBottom": 10,
+              "marginTop": 20,
+              "paddingLeft": 25,
+            }
+          }
+          weight={true}
+        >
+          Step 2
+        </StyledText>
+        <StyledText
+          style={
+            Object {
+              "paddingLeft": 25,
+              "paddingRight": 25,
+            }
+          }
+        >
+          <StyledText
+            weight={true}
+          >
+            Your consent 
+          </StyledText>
+          - We need your permission so that we can connect to your selected bank and one of the current account.
+        </StyledText>
+        <StyledText
+          style={
+            Object {
+              "alignSelf": "flex-start",
+              "color": "#2E7AF6",
+              "marginBottom": 10,
+              "marginTop": 20,
+              "paddingLeft": 25,
+            }
+          }
+          weight={true}
+        >
+          Step 3
+        </StyledText>
+        <StyledText
+          style={
+            Object {
+              "paddingLeft": 25,
+              "paddingRight": 25,
+            }
+          }
+        >
+          <StyledText
+            weight={true}
+          >
+            Choose bank account 
+          </StyledText>
+          - You will choose the bank account that you use for your day to day spend (if you have more than one current account)
+        </StyledText>
+        <Component
+          style={
+            Object {
+              "marginTop": 30,
+              "paddingHorizontal": 80,
+            }
+          }
+        >
+          <StyledButton
+            onPress={[Function]}
+          >
+            Continue
+          </StyledButton>
+        </Component>
+      </Styled(Component)>,
+    },
+    "ref": null,
+    "rendered": Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <StyledText
+            size="large"
+            style={
+              Object {
+                "alignSelf": "flex-start",
+                "marginTop": 30,
+                "paddingHorizontal": 25,
+              }
+            }
+          >
+            How does this set up work?
+          </StyledText>,
+          <StyledText
+            style={
+              Object {
+                "alignSelf": "flex-start",
+                "color": "#2E7AF6",
+                "marginBottom": 10,
+                "marginTop": 20,
+                "paddingLeft": 25,
+              }
+            }
+            weight={true}
+          >
+            Step 1
+          </StyledText>,
+          <StyledText
+            style={
+              Object {
+                "paddingLeft": 25,
+                "paddingRight": 25,
+              }
+            }
+          >
+            <StyledText
+              weight={true}
+            >
+              Choose your bank 
+            </StyledText>
+            - You select your bank from the list of selected bank we work with!
+          </StyledText>,
+          <StyledText
+            style={
+              Object {
+                "alignSelf": "flex-start",
+                "color": "#2E7AF6",
+                "marginBottom": 10,
+                "marginTop": 20,
+                "paddingLeft": 25,
+              }
+            }
+            weight={true}
+          >
+            Step 2
+          </StyledText>,
+          <StyledText
+            style={
+              Object {
+                "paddingLeft": 25,
+                "paddingRight": 25,
+              }
+            }
+          >
+            <StyledText
+              weight={true}
+            >
+              Your consent 
+            </StyledText>
+            - We need your permission so that we can connect to your selected bank and one of the current account.
+          </StyledText>,
+          <StyledText
+            style={
+              Object {
+                "alignSelf": "flex-start",
+                "color": "#2E7AF6",
+                "marginBottom": 10,
+                "marginTop": 20,
+                "paddingLeft": 25,
+              }
+            }
+            weight={true}
+          >
+            Step 3
+          </StyledText>,
+          <StyledText
+            style={
+              Object {
+                "paddingLeft": 25,
+                "paddingRight": 25,
+              }
+            }
+          >
+            <StyledText
+              weight={true}
+            >
+              Choose bank account 
+            </StyledText>
+            - You will choose the bank account that you use for your day to day spend (if you have more than one current account)
+          </StyledText>,
+          <Component
+            style={
+              Object {
+                "marginTop": 30,
+                "paddingHorizontal": 80,
+              }
+            }
+          >
+            <StyledButton
+              onPress={[Function]}
+            >
+              Continue
+            </StyledButton>
+          </Component>,
+        ],
+        "style": Object {
+          "flex": 1,
+          "justifyContent": "center",
+        },
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": "How does this set up work?",
+            "size": "large",
+            "style": Object {
+              "alignSelf": "flex-start",
+              "marginTop": 30,
+              "paddingHorizontal": 25,
+            },
+          },
+          "ref": null,
+          "rendered": "How does this set up work?",
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": "Step 1",
+            "style": Object {
+              "alignSelf": "flex-start",
+              "color": "#2E7AF6",
+              "marginBottom": 10,
+              "marginTop": 20,
+              "paddingLeft": 25,
+            },
+            "weight": true,
+          },
+          "ref": null,
+          "rendered": "Step 1",
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": Array [
+              <StyledText
+                weight={true}
+              >
+                Choose your bank 
+              </StyledText>,
+              "- You select your bank from the list of selected bank we work with!",
+            ],
+            "style": Object {
+              "paddingLeft": 25,
+              "paddingRight": 25,
+            },
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": "Choose your bank ",
+                "weight": true,
+              },
+              "ref": null,
+              "rendered": "Choose your bank ",
+              "type": [Function],
+            },
+            "- You select your bank from the list of selected bank we work with!",
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": "Step 2",
+            "style": Object {
+              "alignSelf": "flex-start",
+              "color": "#2E7AF6",
+              "marginBottom": 10,
+              "marginTop": 20,
+              "paddingLeft": 25,
+            },
+            "weight": true,
+          },
+          "ref": null,
+          "rendered": "Step 2",
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": Array [
+              <StyledText
+                weight={true}
+              >
+                Your consent 
+              </StyledText>,
+              "- We need your permission so that we can connect to your selected bank and one of the current account.",
+            ],
+            "style": Object {
+              "paddingLeft": 25,
+              "paddingRight": 25,
+            },
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": "Your consent ",
+                "weight": true,
+              },
+              "ref": null,
+              "rendered": "Your consent ",
+              "type": [Function],
+            },
+            "- We need your permission so that we can connect to your selected bank and one of the current account.",
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": "Step 3",
+            "style": Object {
+              "alignSelf": "flex-start",
+              "color": "#2E7AF6",
+              "marginBottom": 10,
+              "marginTop": 20,
+              "paddingLeft": 25,
+            },
+            "weight": true,
+          },
+          "ref": null,
+          "rendered": "Step 3",
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": Array [
+              <StyledText
+                weight={true}
+              >
+                Choose bank account 
+              </StyledText>,
+              "- You will choose the bank account that you use for your day to day spend (if you have more than one current account)",
+            ],
+            "style": Object {
+              "paddingLeft": 25,
+              "paddingRight": 25,
+            },
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": "Choose bank account ",
+                "weight": true,
+              },
+              "ref": null,
+              "rendered": "Choose bank account ",
+              "type": [Function],
+            },
+            "- You will choose the bank account that you use for your day to day spend (if you have more than one current account)",
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": <StyledButton
+              onPress={[Function]}
+            >
+              Continue
+            </StyledButton>,
+            "style": Object {
+              "marginTop": 30,
+              "paddingHorizontal": 80,
+            },
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": "Continue",
+              "onPress": [Function],
+            },
+            "ref": null,
+            "rendered": "Continue",
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+    "type": [MockFunction],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": <Styled(Component)
+          style={
+            Object {
+              "flex": 1,
+              "justifyContent": "center",
+            }
+          }
+        >
+          <StyledText
+            size="large"
+            style={
+              Object {
+                "alignSelf": "flex-start",
+                "marginTop": 30,
+                "paddingHorizontal": 25,
+              }
+            }
+          >
+            How does this set up work?
+          </StyledText>
+          <StyledText
+            style={
+              Object {
+                "alignSelf": "flex-start",
+                "color": "#2E7AF6",
+                "marginBottom": 10,
+                "marginTop": 20,
+                "paddingLeft": 25,
+              }
+            }
+            weight={true}
+          >
+            Step 1
+          </StyledText>
+          <StyledText
+            style={
+              Object {
+                "paddingLeft": 25,
+                "paddingRight": 25,
+              }
+            }
+          >
+            <StyledText
+              weight={true}
+            >
+              Choose your bank 
+            </StyledText>
+            - You select your bank from the list of selected bank we work with!
+          </StyledText>
+          <StyledText
+            style={
+              Object {
+                "alignSelf": "flex-start",
+                "color": "#2E7AF6",
+                "marginBottom": 10,
+                "marginTop": 20,
+                "paddingLeft": 25,
+              }
+            }
+            weight={true}
+          >
+            Step 2
+          </StyledText>
+          <StyledText
+            style={
+              Object {
+                "paddingLeft": 25,
+                "paddingRight": 25,
+              }
+            }
+          >
+            <StyledText
+              weight={true}
+            >
+              Your consent 
+            </StyledText>
+            - We need your permission so that we can connect to your selected bank and one of the current account.
+          </StyledText>
+          <StyledText
+            style={
+              Object {
+                "alignSelf": "flex-start",
+                "color": "#2E7AF6",
+                "marginBottom": 10,
+                "marginTop": 20,
+                "paddingLeft": 25,
+              }
+            }
+            weight={true}
+          >
+            Step 3
+          </StyledText>
+          <StyledText
+            style={
+              Object {
+                "paddingLeft": 25,
+                "paddingRight": 25,
+              }
+            }
+          >
+            <StyledText
+              weight={true}
+            >
+              Choose bank account 
+            </StyledText>
+            - You will choose the bank account that you use for your day to day spend (if you have more than one current account)
+          </StyledText>
+          <Component
+            style={
+              Object {
+                "marginTop": 30,
+                "paddingHorizontal": 80,
+              }
+            }
+          >
+            <StyledButton
+              onPress={[Function]}
+            >
+              Continue
+            </StyledButton>
+          </Component>
+        </Styled(Component)>,
+      },
+      "ref": null,
+      "rendered": Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <StyledText
+              size="large"
+              style={
+                Object {
+                  "alignSelf": "flex-start",
+                  "marginTop": 30,
+                  "paddingHorizontal": 25,
+                }
+              }
+            >
+              How does this set up work?
+            </StyledText>,
+            <StyledText
+              style={
+                Object {
+                  "alignSelf": "flex-start",
+                  "color": "#2E7AF6",
+                  "marginBottom": 10,
+                  "marginTop": 20,
+                  "paddingLeft": 25,
+                }
+              }
+              weight={true}
+            >
+              Step 1
+            </StyledText>,
+            <StyledText
+              style={
+                Object {
+                  "paddingLeft": 25,
+                  "paddingRight": 25,
+                }
+              }
+            >
+              <StyledText
+                weight={true}
+              >
+                Choose your bank 
+              </StyledText>
+              - You select your bank from the list of selected bank we work with!
+            </StyledText>,
+            <StyledText
+              style={
+                Object {
+                  "alignSelf": "flex-start",
+                  "color": "#2E7AF6",
+                  "marginBottom": 10,
+                  "marginTop": 20,
+                  "paddingLeft": 25,
+                }
+              }
+              weight={true}
+            >
+              Step 2
+            </StyledText>,
+            <StyledText
+              style={
+                Object {
+                  "paddingLeft": 25,
+                  "paddingRight": 25,
+                }
+              }
+            >
+              <StyledText
+                weight={true}
+              >
+                Your consent 
+              </StyledText>
+              - We need your permission so that we can connect to your selected bank and one of the current account.
+            </StyledText>,
+            <StyledText
+              style={
+                Object {
+                  "alignSelf": "flex-start",
+                  "color": "#2E7AF6",
+                  "marginBottom": 10,
+                  "marginTop": 20,
+                  "paddingLeft": 25,
+                }
+              }
+              weight={true}
+            >
+              Step 3
+            </StyledText>,
+            <StyledText
+              style={
+                Object {
+                  "paddingLeft": 25,
+                  "paddingRight": 25,
+                }
+              }
+            >
+              <StyledText
+                weight={true}
+              >
+                Choose bank account 
+              </StyledText>
+              - You will choose the bank account that you use for your day to day spend (if you have more than one current account)
+            </StyledText>,
+            <Component
+              style={
+                Object {
+                  "marginTop": 30,
+                  "paddingHorizontal": 80,
+                }
+              }
+            >
+              <StyledButton
+                onPress={[Function]}
+              >
+                Continue
+              </StyledButton>
+            </Component>,
+          ],
+          "style": Object {
+            "flex": 1,
+            "justifyContent": "center",
+          },
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": "How does this set up work?",
+              "size": "large",
+              "style": Object {
+                "alignSelf": "flex-start",
+                "marginTop": 30,
+                "paddingHorizontal": 25,
+              },
+            },
+            "ref": null,
+            "rendered": "How does this set up work?",
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": "Step 1",
+              "style": Object {
+                "alignSelf": "flex-start",
+                "color": "#2E7AF6",
+                "marginBottom": 10,
+                "marginTop": 20,
+                "paddingLeft": 25,
+              },
+              "weight": true,
+            },
+            "ref": null,
+            "rendered": "Step 1",
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": Array [
+                <StyledText
+                  weight={true}
+                >
+                  Choose your bank 
+                </StyledText>,
+                "- You select your bank from the list of selected bank we work with!",
+              ],
+              "style": Object {
+                "paddingLeft": 25,
+                "paddingRight": 25,
+              },
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "children": "Choose your bank ",
+                  "weight": true,
+                },
+                "ref": null,
+                "rendered": "Choose your bank ",
+                "type": [Function],
+              },
+              "- You select your bank from the list of selected bank we work with!",
+            ],
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": "Step 2",
+              "style": Object {
+                "alignSelf": "flex-start",
+                "color": "#2E7AF6",
+                "marginBottom": 10,
+                "marginTop": 20,
+                "paddingLeft": 25,
+              },
+              "weight": true,
+            },
+            "ref": null,
+            "rendered": "Step 2",
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": Array [
+                <StyledText
+                  weight={true}
+                >
+                  Your consent 
+                </StyledText>,
+                "- We need your permission so that we can connect to your selected bank and one of the current account.",
+              ],
+              "style": Object {
+                "paddingLeft": 25,
+                "paddingRight": 25,
+              },
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "children": "Your consent ",
+                  "weight": true,
+                },
+                "ref": null,
+                "rendered": "Your consent ",
+                "type": [Function],
+              },
+              "- We need your permission so that we can connect to your selected bank and one of the current account.",
+            ],
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": "Step 3",
+              "style": Object {
+                "alignSelf": "flex-start",
+                "color": "#2E7AF6",
+                "marginBottom": 10,
+                "marginTop": 20,
+                "paddingLeft": 25,
+              },
+              "weight": true,
+            },
+            "ref": null,
+            "rendered": "Step 3",
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": Array [
+                <StyledText
+                  weight={true}
+                >
+                  Choose bank account 
+                </StyledText>,
+                "- You will choose the bank account that you use for your day to day spend (if you have more than one current account)",
+              ],
+              "style": Object {
+                "paddingLeft": 25,
+                "paddingRight": 25,
+              },
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "function",
+                "props": Object {
+                  "children": "Choose bank account ",
+                  "weight": true,
+                },
+                "ref": null,
+                "rendered": "Choose bank account ",
+                "type": [Function],
+              },
+              "- You will choose the bank account that you use for your day to day spend (if you have more than one current account)",
+            ],
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <StyledButton
+                onPress={[Function]}
+              >
+                Continue
+              </StyledButton>,
+              "style": Object {
+                "marginTop": 30,
+                "paddingHorizontal": 80,
+              },
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": "Continue",
+                "onPress": [Function],
+              },
+              "ref": null,
+              "rendered": "Continue",
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      "type": [MockFunction],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;

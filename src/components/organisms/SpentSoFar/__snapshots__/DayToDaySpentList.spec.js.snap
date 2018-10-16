@@ -1,0 +1,319 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DayToDay spent list renders as expected 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <DayToDaySpentList
+    data={
+      Array [
+        Object {
+          "amount": 1,
+          "category": "test",
+        },
+      ]
+    }
+    sliceColor={Array []}
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": "0",
+    "nodeType": "class",
+    "props": Object {
+      "children": Array [
+        <Component
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+            }
+          }
+        >
+          <StyledText
+            style={
+              Object {
+                "color": undefined,
+                "marginRight": 10,
+              }
+            }
+          >
+            ●
+          </StyledText>
+          <StyledText
+            style={
+              Object {
+                "fontSize": 23,
+              }
+            }
+          >
+            test
+          </StyledText>
+        </Component>,
+        <StyledText
+          style={
+            Object {
+              "fontSize": 24,
+            }
+          }
+        >
+          £1
+        </StyledText>,
+      ],
+      "style": Object {
+        "borderBottomColor": "#ccc",
+        "borderBottomWidth": 1,
+        "flexDirection": "row",
+        "justifyContent": "space-between",
+        "paddingVertical": 20,
+      },
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <StyledText
+              style={
+                Object {
+                  "color": undefined,
+                  "marginRight": 10,
+                }
+              }
+            >
+              ●
+            </StyledText>,
+            <StyledText
+              style={
+                Object {
+                  "fontSize": 23,
+                }
+              }
+            >
+              test
+            </StyledText>,
+          ],
+          "style": Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+          },
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": "●",
+              "style": Object {
+                "color": undefined,
+                "marginRight": 10,
+              },
+            },
+            "ref": null,
+            "rendered": "●",
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": "test",
+              "style": Object {
+                "fontSize": 23,
+              },
+            },
+            "ref": null,
+            "rendered": "test",
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": "£1",
+          "style": Object {
+            "fontSize": 24,
+          },
+        },
+        "ref": null,
+        "rendered": "£1",
+        "type": [Function],
+      },
+    ],
+    "type": [Function],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": "0",
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <Component
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+              }
+            }
+          >
+            <StyledText
+              style={
+                Object {
+                  "color": undefined,
+                  "marginRight": 10,
+                }
+              }
+            >
+              ●
+            </StyledText>
+            <StyledText
+              style={
+                Object {
+                  "fontSize": 23,
+                }
+              }
+            >
+              test
+            </StyledText>
+          </Component>,
+          <StyledText
+            style={
+              Object {
+                "fontSize": 24,
+              }
+            }
+          >
+            £1
+          </StyledText>,
+        ],
+        "style": Object {
+          "borderBottomColor": "#ccc",
+          "borderBottomWidth": 1,
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "paddingVertical": 20,
+        },
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <StyledText
+                style={
+                  Object {
+                    "color": undefined,
+                    "marginRight": 10,
+                  }
+                }
+              >
+                ●
+              </StyledText>,
+              <StyledText
+                style={
+                  Object {
+                    "fontSize": 23,
+                  }
+                }
+              >
+                test
+              </StyledText>,
+            ],
+            "style": Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+            },
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": "●",
+                "style": Object {
+                  "color": undefined,
+                  "marginRight": 10,
+                },
+              },
+              "ref": null,
+              "rendered": "●",
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": "test",
+                "style": Object {
+                  "fontSize": 23,
+                },
+              },
+              "ref": null,
+              "rendered": "test",
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": "£1",
+            "style": Object {
+              "fontSize": 24,
+            },
+          },
+          "ref": null,
+          "rendered": "£1",
+          "type": [Function],
+        },
+      ],
+      "type": [Function],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;

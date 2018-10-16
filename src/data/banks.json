@@ -1,0 +1,10 @@
+[{
+  "bankName": "Barclays",
+  "logoImage": "barclayslogo"
+}, {
+  "bankName": "Lloyds",
+  "logoImage": "lloydslogo"
+}, {
+  "bankName": "HSBC",
+  "logoImage": "hsbclogo"
+}]

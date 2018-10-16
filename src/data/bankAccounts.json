@@ -1,0 +1,17 @@
+[
+  {
+  "accountType": "Advanced Account",
+  "sortCode": "20-18-42",
+  "accountNumber": "54963765"
+  },
+  {
+    "accountType": "Premier Account",
+    "sortCode": "20-01-89",
+    "accountNumber": "54993765"
+  },
+  {
+    "accountType": "Current Account",
+    "sortCode": "20-53-21",
+    "accountNumber": "54923765"
+  }
+]

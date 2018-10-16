@@ -1,0 +1,997 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`consent renders as expected 1`] = `
+ShallowWrapper {
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <Consent
+    navigation={
+      Object {
+        "navigate": [MockFunction],
+      }
+    }
+  />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateError": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "class",
+    "props": Object {
+      "children": Array [
+        <StyledText
+          size="large"
+          style={
+            Object {
+              "marginBottom": 15,
+            }
+          }
+        >
+          Your consent
+        </StyledText>,
+        <Component
+          style={
+            Object {
+              "flex": 1,
+              "marginBottom": 15,
+            }
+          }
+        >
+          <StyledText
+            weight={true}
+          >
+            Don't worry, this is all perfectly safe.
+          </StyledText>
+          <StyledText
+            weight={true}
+          >
+            All we can do is look at...
+          </StyledText>
+        </Component>,
+        <Component>
+          <AccordionView />
+        </Component>,
+        <Component>
+          <StyledText
+            style={
+              Object {
+                "marginVertical": 15,
+              }
+            }
+          >
+            gameplan can only read your bank data and can't make payments or change your account.
+          </StyledText>
+        </Component>,
+        <Component>
+          <StyledText
+            style={
+              Object {
+                "marginBottom": 15,
+              }
+            }
+          >
+            We connect securely to your bank through our trusted partner TrueLayer and we'll only be able to view these for three months. Your data will never be shared with third parties without your permission
+          </StyledText>
+        </Component>,
+        <Styled(Component)>
+          <Styled(Component)
+            style={
+              Object {
+                "alignItems": "center",
+              }
+            }
+          >
+            <Switch
+              disabled={false}
+              onValueChange={[Function]}
+              value={false}
+            />
+          </Styled(Component)>
+          <StyledText
+            style={
+              Object {
+                "flex": 2,
+                "fontSize": 15,
+                "marginBottom": 15,
+              }
+            }
+          >
+            You agree to our terms & conditions and privacy policy which covers how giffgaff can access and use your data
+          </StyledText>
+        </Styled(Component)>,
+        <Component>
+          <StyledText
+            style={
+              Object {
+                "marginBottom": 15,
+              }
+            }
+          >
+            We will now securely take you to your bank/building society
+          </StyledText>
+        </Component>,
+        <Styled(Component)
+          style={
+            Object {
+              "flexDirection": "row",
+              "padding": 30,
+            }
+          }
+        >
+          <StyledButton
+            onPress={[Function]}
+            outlined={true}
+            style={
+              Object {
+                "flex": 1,
+                "marginRight": 30,
+              }
+            }
+          >
+            Disagree
+          </StyledButton>
+          <StyledButton
+            disabled={true}
+            onPress={[Function]}
+            style={
+              Object {
+                "flex": 1,
+              }
+            }
+          >
+            Agree
+          </StyledButton>
+        </Styled(Component)>,
+      ],
+      "style": Object {
+        "marginTop": 20,
+        "paddingHorizontal": 25,
+      },
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "function",
+        "props": Object {
+          "children": "Your consent",
+          "size": "large",
+          "style": Object {
+            "marginBottom": 15,
+          },
+        },
+        "ref": null,
+        "rendered": "Your consent",
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <StyledText
+              weight={true}
+            >
+              Don't worry, this is all perfectly safe.
+            </StyledText>,
+            <StyledText
+              weight={true}
+            >
+              All we can do is look at...
+            </StyledText>,
+          ],
+          "style": Object {
+            "flex": 1,
+            "marginBottom": 15,
+          },
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": "Don't worry, this is all perfectly safe.",
+              "weight": true,
+            },
+            "ref": null,
+            "rendered": "Don't worry, this is all perfectly safe.",
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": "All we can do is look at...",
+              "weight": true,
+            },
+            "ref": null,
+            "rendered": "All we can do is look at...",
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": <AccordionView />,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {},
+          "ref": null,
+          "rendered": null,
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": <StyledText
+            style={
+              Object {
+                "marginVertical": 15,
+              }
+            }
+          >
+            gameplan can only read your bank data and can't make payments or change your account.
+          </StyledText>,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": "gameplan can only read your bank data and can't make payments or change your account.",
+            "style": Object {
+              "marginVertical": 15,
+            },
+          },
+          "ref": null,
+          "rendered": "gameplan can only read your bank data and can't make payments or change your account.",
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": <StyledText
+            style={
+              Object {
+                "marginBottom": 15,
+              }
+            }
+          >
+            We connect securely to your bank through our trusted partner TrueLayer and we'll only be able to view these for three months. Your data will never be shared with third parties without your permission
+          </StyledText>,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": "We connect securely to your bank through our trusted partner TrueLayer and we'll only be able to view these for three months. Your data will never be shared with third parties without your permission",
+            "style": Object {
+              "marginBottom": 15,
+            },
+          },
+          "ref": null,
+          "rendered": "We connect securely to your bank through our trusted partner TrueLayer and we'll only be able to view these for three months. Your data will never be shared with third parties without your permission",
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <Styled(Component)
+              style={
+                Object {
+                  "alignItems": "center",
+                }
+              }
+            >
+              <Switch
+                disabled={false}
+                onValueChange={[Function]}
+                value={false}
+              />
+            </Styled(Component)>,
+            <StyledText
+              style={
+                Object {
+                  "flex": 2,
+                  "fontSize": 15,
+                  "marginBottom": 15,
+                }
+              }
+            >
+              You agree to our terms & conditions and privacy policy which covers how giffgaff can access and use your data
+            </StyledText>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": <Switch
+                disabled={false}
+                onValueChange={[Function]}
+                value={false}
+              />,
+              "style": Object {
+                "alignItems": "center",
+              },
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "disabled": false,
+                "onValueChange": [Function],
+                "value": false,
+              },
+              "ref": null,
+              "rendered": null,
+              "type": [Function],
+            },
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": "You agree to our terms & conditions and privacy policy which covers how giffgaff can access and use your data",
+              "style": Object {
+                "flex": 2,
+                "fontSize": 15,
+                "marginBottom": 15,
+              },
+            },
+            "ref": null,
+            "rendered": "You agree to our terms & conditions and privacy policy which covers how giffgaff can access and use your data",
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": <StyledText
+            style={
+              Object {
+                "marginBottom": 15,
+              }
+            }
+          >
+            We will now securely take you to your bank/building society
+          </StyledText>,
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": "We will now securely take you to your bank/building society",
+            "style": Object {
+              "marginBottom": 15,
+            },
+          },
+          "ref": null,
+          "rendered": "We will now securely take you to your bank/building society",
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": Array [
+            <StyledButton
+              onPress={[Function]}
+              outlined={true}
+              style={
+                Object {
+                  "flex": 1,
+                  "marginRight": 30,
+                }
+              }
+            >
+              Disagree
+            </StyledButton>,
+            <StyledButton
+              disabled={true}
+              onPress={[Function]}
+              style={
+                Object {
+                  "flex": 1,
+                }
+              }
+            >
+              Agree
+            </StyledButton>,
+          ],
+          "style": Object {
+            "flexDirection": "row",
+            "padding": 30,
+          },
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": "Disagree",
+              "onPress": [Function],
+              "outlined": true,
+              "style": Object {
+                "flex": 1,
+                "marginRight": 30,
+              },
+            },
+            "ref": null,
+            "rendered": "Disagree",
+            "type": [Function],
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": "Agree",
+              "disabled": true,
+              "onPress": [Function],
+              "style": Object {
+                "flex": 1,
+              },
+            },
+            "ref": null,
+            "rendered": "Agree",
+            "type": [Function],
+          },
+        ],
+        "type": [Function],
+      },
+    ],
+    "type": [MockFunction],
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "class",
+      "props": Object {
+        "children": Array [
+          <StyledText
+            size="large"
+            style={
+              Object {
+                "marginBottom": 15,
+              }
+            }
+          >
+            Your consent
+          </StyledText>,
+          <Component
+            style={
+              Object {
+                "flex": 1,
+                "marginBottom": 15,
+              }
+            }
+          >
+            <StyledText
+              weight={true}
+            >
+              Don't worry, this is all perfectly safe.
+            </StyledText>
+            <StyledText
+              weight={true}
+            >
+              All we can do is look at...
+            </StyledText>
+          </Component>,
+          <Component>
+            <AccordionView />
+          </Component>,
+          <Component>
+            <StyledText
+              style={
+                Object {
+                  "marginVertical": 15,
+                }
+              }
+            >
+              gameplan can only read your bank data and can't make payments or change your account.
+            </StyledText>
+          </Component>,
+          <Component>
+            <StyledText
+              style={
+                Object {
+                  "marginBottom": 15,
+                }
+              }
+            >
+              We connect securely to your bank through our trusted partner TrueLayer and we'll only be able to view these for three months. Your data will never be shared with third parties without your permission
+            </StyledText>
+          </Component>,
+          <Styled(Component)>
+            <Styled(Component)
+              style={
+                Object {
+                  "alignItems": "center",
+                }
+              }
+            >
+              <Switch
+                disabled={false}
+                onValueChange={[Function]}
+                value={false}
+              />
+            </Styled(Component)>
+            <StyledText
+              style={
+                Object {
+                  "flex": 2,
+                  "fontSize": 15,
+                  "marginBottom": 15,
+                }
+              }
+            >
+              You agree to our terms & conditions and privacy policy which covers how giffgaff can access and use your data
+            </StyledText>
+          </Styled(Component)>,
+          <Component>
+            <StyledText
+              style={
+                Object {
+                  "marginBottom": 15,
+                }
+              }
+            >
+              We will now securely take you to your bank/building society
+            </StyledText>
+          </Component>,
+          <Styled(Component)
+            style={
+              Object {
+                "flexDirection": "row",
+                "padding": 30,
+              }
+            }
+          >
+            <StyledButton
+              onPress={[Function]}
+              outlined={true}
+              style={
+                Object {
+                  "flex": 1,
+                  "marginRight": 30,
+                }
+              }
+            >
+              Disagree
+            </StyledButton>
+            <StyledButton
+              disabled={true}
+              onPress={[Function]}
+              style={
+                Object {
+                  "flex": 1,
+                }
+              }
+            >
+              Agree
+            </StyledButton>
+          </Styled(Component)>,
+        ],
+        "style": Object {
+          "marginTop": 20,
+          "paddingHorizontal": 25,
+        },
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "function",
+          "props": Object {
+            "children": "Your consent",
+            "size": "large",
+            "style": Object {
+              "marginBottom": 15,
+            },
+          },
+          "ref": null,
+          "rendered": "Your consent",
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <StyledText
+                weight={true}
+              >
+                Don't worry, this is all perfectly safe.
+              </StyledText>,
+              <StyledText
+                weight={true}
+              >
+                All we can do is look at...
+              </StyledText>,
+            ],
+            "style": Object {
+              "flex": 1,
+              "marginBottom": 15,
+            },
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": "Don't worry, this is all perfectly safe.",
+                "weight": true,
+              },
+              "ref": null,
+              "rendered": "Don't worry, this is all perfectly safe.",
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": "All we can do is look at...",
+                "weight": true,
+              },
+              "ref": null,
+              "rendered": "All we can do is look at...",
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": <AccordionView />,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {},
+            "ref": null,
+            "rendered": null,
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": <StyledText
+              style={
+                Object {
+                  "marginVertical": 15,
+                }
+              }
+            >
+              gameplan can only read your bank data and can't make payments or change your account.
+            </StyledText>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": "gameplan can only read your bank data and can't make payments or change your account.",
+              "style": Object {
+                "marginVertical": 15,
+              },
+            },
+            "ref": null,
+            "rendered": "gameplan can only read your bank data and can't make payments or change your account.",
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": <StyledText
+              style={
+                Object {
+                  "marginBottom": 15,
+                }
+              }
+            >
+              We connect securely to your bank through our trusted partner TrueLayer and we'll only be able to view these for three months. Your data will never be shared with third parties without your permission
+            </StyledText>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": "We connect securely to your bank through our trusted partner TrueLayer and we'll only be able to view these for three months. Your data will never be shared with third parties without your permission",
+              "style": Object {
+                "marginBottom": 15,
+              },
+            },
+            "ref": null,
+            "rendered": "We connect securely to your bank through our trusted partner TrueLayer and we'll only be able to view these for three months. Your data will never be shared with third parties without your permission",
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <Styled(Component)
+                style={
+                  Object {
+                    "alignItems": "center",
+                  }
+                }
+              >
+                <Switch
+                  disabled={false}
+                  onValueChange={[Function]}
+                  value={false}
+                />
+              </Styled(Component)>,
+              <StyledText
+                style={
+                  Object {
+                    "flex": 2,
+                    "fontSize": 15,
+                    "marginBottom": 15,
+                  }
+                }
+              >
+                You agree to our terms & conditions and privacy policy which covers how giffgaff can access and use your data
+              </StyledText>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <Switch
+                  disabled={false}
+                  onValueChange={[Function]}
+                  value={false}
+                />,
+                "style": Object {
+                  "alignItems": "center",
+                },
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "disabled": false,
+                  "onValueChange": [Function],
+                  "value": false,
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": "You agree to our terms & conditions and privacy policy which covers how giffgaff can access and use your data",
+                "style": Object {
+                  "flex": 2,
+                  "fontSize": 15,
+                  "marginBottom": 15,
+                },
+              },
+              "ref": null,
+              "rendered": "You agree to our terms & conditions and privacy policy which covers how giffgaff can access and use your data",
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": <StyledText
+              style={
+                Object {
+                  "marginBottom": 15,
+                }
+              }
+            >
+              We will now securely take you to your bank/building society
+            </StyledText>,
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "function",
+            "props": Object {
+              "children": "We will now securely take you to your bank/building society",
+              "style": Object {
+                "marginBottom": 15,
+              },
+            },
+            "ref": null,
+            "rendered": "We will now securely take you to your bank/building society",
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <StyledButton
+                onPress={[Function]}
+                outlined={true}
+                style={
+                  Object {
+                    "flex": 1,
+                    "marginRight": 30,
+                  }
+                }
+              >
+                Disagree
+              </StyledButton>,
+              <StyledButton
+                disabled={true}
+                onPress={[Function]}
+                style={
+                  Object {
+                    "flex": 1,
+                  }
+                }
+              >
+                Agree
+              </StyledButton>,
+            ],
+            "style": Object {
+              "flexDirection": "row",
+              "padding": 30,
+            },
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": "Disagree",
+                "onPress": [Function],
+                "outlined": true,
+                "style": Object {
+                  "flex": 1,
+                  "marginRight": 30,
+                },
+              },
+              "ref": null,
+              "rendered": "Disagree",
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "function",
+              "props": Object {
+                "children": "Agree",
+                "disabled": true,
+                "onPress": [Function],
+                "style": Object {
+                  "flex": 1,
+                },
+              },
+              "ref": null,
+              "rendered": "Agree",
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+      ],
+      "type": [MockFunction],
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+        "lifecycles": Object {
+          "componentDidUpdate": Object {
+            "onSetState": true,
+          },
+          "getDerivedStateFromProps": true,
+          "getSnapshotBeforeUpdate": true,
+          "setState": Object {
+            "skipsComponentDidUpdateOnNullish": true,
+          },
+        },
+      },
+    },
+    "attachTo": undefined,
+    "hydrateIn": undefined,
+  },
+}
+`;

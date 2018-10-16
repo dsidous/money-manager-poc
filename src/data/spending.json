@@ -1,0 +1,55 @@
+{
+  "allSpending": [
+    {
+      "title": "All",
+      "amount": 3000
+    },
+    {
+      "title": "Regular",
+      "amount": 1000
+    },
+    {
+      "title": "Day to day",
+      "amount": 2000
+    }
+  ],
+  "regularSpending": [
+    {
+      "date": "June 1",
+      "title": "Camden Council Tax",
+      "amount": 120
+    },
+    {
+      "date": "June 2",
+      "title": "British Gas",
+      "amount": 110
+    },
+    {
+      "date": "June 3",
+      "title": "Thames Water",
+      "amount": 200
+    }
+  ],
+  "dayToDaySpending": [
+    {
+      "category": "Groceries",
+      "amount": 200
+    },
+    {
+      "category": "Cash",
+      "amount": 250
+    },
+    {
+      "category": "Travel",
+      "amount": 280
+    },
+    {
+      "category": "Eating out",
+      "amount": 231
+    },
+    {
+      "category": "Shopping",
+      "amount": 123
+    }
+  ]
+}

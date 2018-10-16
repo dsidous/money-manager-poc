@@ -1,0 +1,28 @@
+  [
+    [
+      {
+        "value": 49,
+        "name": "January"
+      },
+      {
+        "value": 42,
+        "name": "February"
+      },
+      {
+        "value": 69,
+        "name": "March"
+      },
+      {
+        "value": 62,
+        "name": "April"
+      },
+      {
+        "value": 29,
+        "name": "Maj"
+      },
+      {
+        "value": 15,
+        "name": "June"
+      }
+    ]
+  ]

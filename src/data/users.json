@@ -1,0 +1,14 @@
+[
+    {
+        "User": "Chris",
+        "userName": "giffgaff",
+        "emailID": "chris@giffgaff.com",
+        "password": "test123"
+    },
+    {
+        "User": "Varun",
+        "userName": "nttdata",
+        "emailID": "varun@nttdata.com",
+        "password": "test123"
+    }
+]
